@@ -1,0 +1,175 @@
+Thread 0, Frame 183:
+vkWaitForFences(device, fenceCount, pFences, waitAll, timeout) returns VkResult VK_SUCCESS (0):
+    device:                         VkDevice = 0x7fa9bc042e18
+    fenceCount:                     uint32_t = 1
+    pFences:                        const VkFence* = 0x7fa9cac21e58
+        pFences[0]:                     const VkFence = 0x270000000027
+    waitAll:                        VkBool32 = 1
+    timeout:                        uint64_t = 18446744073709551615
+
+Thread 0, Frame 183:
+vkResetFences(device, fenceCount, pFences) returns VkResult VK_SUCCESS (0):
+    device:                         VkDevice = 0x7fa9bc042e18
+    fenceCount:                     uint32_t = 1
+    pFences:                        const VkFence* = 0x7fa9cac21e58
+        pFences[0]:                     const VkFence = 0x270000000027
+
+Thread 0, Frame 183:
+vkAcquireNextImageKHR(device, swapchain, timeout, semaphore, fence, pImageIndex) returns VkResult VK_SUCCESS (0):
+    device:                         VkDevice = 0x7fa9bc042e18
+    swapchain:                      VkSwapchainKHR = 0x20000000002
+    timeout:                        uint64_t = 18446744073709551615
+    semaphore:                      VkSemaphore = 0x250000000025
+    fence:                          VkFence = 0x0
+    pImageIndex:                    uint32_t* = 0
+
+Thread 0, Frame 183:
+vkQueueSubmit(queue, submitCount, pSubmits, fence) returns VkResult VK_SUCCESS (0):
+    queue:                          VkQueue = 0x7fa9cc805f38
+    submitCount:                    uint32_t = 1
+    pSubmits:                       const VkSubmitInfo* = 0x7ffeec965638
+        pSubmits[0]:                    const VkSubmitInfo = 0x7ffeec965638:
+            sType:                          VkStructureType = VK_STRUCTURE_TYPE_SUBMIT_INFO (4)
+            pNext:                          const void* = NULL
+            waitSemaphoreCount:             uint32_t = 1
+            pWaitSemaphores:                const VkSemaphore* = 0x7fa9cac1eca8
+                pWaitSemaphores[0]:             const VkSemaphore = 0x250000000025
+            pWaitDstStageMask:              const VkPipelineStageFlags* = 0x7ffeec965680
+                pWaitDstStageMask[0]:           const VkPipelineStageFlags = 1024 (VK_PIPELINE_STAGE_COLOR_ATTACHMENT_OUTPUT_BIT)
+            commandBufferCount:             uint32_t = 1
+            pCommandBuffers:                const VkCommandBuffer* = 0x7fa9cae8d970
+                pCommandBuffers[0]:             const VkCommandBuffer = 0x7fa9cac48ab8
+            signalSemaphoreCount:           uint32_t = 1
+            pSignalSemaphores:              const VkSemaphore* = 0x7fa9cac23308
+                pSignalSemaphores[0]:           const VkSemaphore = 0x260000000026
+    fence:                          VkFence = 0x270000000027
+
+Thread 0, Frame 183:
+vkQueuePresentKHR(queue, pPresentInfo) returns VkResult VK_SUCCESS (0):
+    queue:                          VkQueue = 0x7fa9cc805f38
+    pPresentInfo:                   const VkPresentInfoKHR* = 0x7ffeec9655e8:
+        sType:                          VkStructureType = VK_STRUCTURE_TYPE_PRESENT_INFO_KHR (1000001001)
+        pNext:                          const void* = NULL
+        waitSemaphoreCount:             uint32_t = 1
+        pWaitSemaphores:                const VkSemaphore* = 0x7fa9cac23308
+            pWaitSemaphores[0]:             const VkSemaphore = 0x260000000026
+        swapchainCount:                 uint32_t = 1
+        pSwapchains:                    const VkSwapchainKHR* = 0x7ffeec965728
+            pSwapchains[0]:                 const VkSwapchainKHR = 0x20000000002
+        pImageIndices:                  const uint32_t* = 0x7ffeec965684
+            pImageIndices[0]:               const uint32_t = 0
+        pResults:                       VkResult* = NULL
+
+Thread 0, Frame 184:
+vkWaitForFences(device, fenceCount, pFences, waitAll, timeout) returns VkResult VK_SUCCESS (0):
+    device:                         VkDevice = 0x7fa9bc042e18
+    fenceCount:                     uint32_t = 1
+    pFences:                        const VkFence* = 0x7fa9cac21e50
+        pFences[0]:                     const VkFence = 0x240000000024
+    waitAll:                        VkBool32 = 1
+    timeout:                        uint64_t = 18446744073709551615
+
+Thread 0, Frame 184:
+vkResetFences(device, fenceCount, pFences) returns VkResult VK_SUCCESS (0):
+    device:                         VkDevice = 0x7fa9bc042e18
+    fenceCount:                     uint32_t = 1
+    pFences:                        const VkFence* = 0x7fa9cac21e50
+        pFences[0]:                     const VkFence = 0x240000000024
+
+Thread 0, Frame 184:
+vkAcquireNextImageKHR(device, swapchain, timeout, semaphore, fence, pImageIndex) returns VkResult VK_SUCCESS (0):
+    device:                         VkDevice = 0x7fa9bc042e18
+    swapchain:                      VkSwapchainKHR = 0x20000000002
+    timeout:                        uint64_t = 18446744073709551615
+    semaphore:                      VkSemaphore = 0x220000000022
+    fence:                          VkFence = 0x0
+    pImageIndex:                    uint32_t* = 1
+
+Thread 0, Frame 184:
+vkQueueSubmit(queue, submitCount, pSubmits, fence) returns VkResult VK_SUCCESS (0):
+    queue:                          VkQueue = 0x7fa9cc805f38
+    submitCount:                    uint32_t = 1
+    pSubmits:                       const VkSubmitInfo* = 0x7ffeec965638
+        pSubmits[0]:                    const VkSubmitInfo = 0x7ffeec965638:
+            sType:                          VkStructureType = VK_STRUCTURE_TYPE_SUBMIT_INFO (4)
+            pNext:                          const void* = NULL
+            waitSemaphoreCount:             uint32_t = 1
+            pWaitSemaphores:                const VkSemaphore* = 0x7fa9cac1eca0
+                pWaitSemaphores[0]:             const VkSemaphore = 0x220000000022
+            pWaitDstStageMask:              const VkPipelineStageFlags* = 0x7ffeec965680
+                pWaitDstStageMask[0]:           const VkPipelineStageFlags = 1024 (VK_PIPELINE_STAGE_COLOR_ATTACHMENT_OUTPUT_BIT)
+            commandBufferCount:             uint32_t = 1
+            pCommandBuffers:                const VkCommandBuffer* = 0x7fa9cae8d978
+                pCommandBuffers[0]:             const VkCommandBuffer = 0x7fa9caea4818
+            signalSemaphoreCount:           uint32_t = 1
+            pSignalSemaphores:              const VkSemaphore* = 0x7fa9cac23300
+                pSignalSemaphores[0]:           const VkSemaphore = 0x230000000023
+    fence:                          VkFence = 0x240000000024
+
+Thread 0, Frame 184:
+vkQueuePresentKHR(queue, pPresentInfo) returns VkResult VK_SUCCESS (0):
+    queue:                          VkQueue = 0x7fa9cc805f38
+    pPresentInfo:                   const VkPresentInfoKHR* = 0x7ffeec9655e8:
+        sType:                          VkStructureType = VK_STRUCTURE_TYPE_PRESENT_INFO_KHR (1000001001)
+        pNext:                          const void* = NULL
+        waitSemaphoreCount:             uint32_t = 1
+        pWaitSemaphores:                const VkSemaphore* = 0x7fa9cac23300
+            pWaitSemaphores[0]:             const VkSemaphore = 0x230000000023
+        swapchainCount:                 uint32_t = 1
+        pSwapchains:                    const VkSwapchainKHR* = 0x7ffeec965728
+            pSwapchains[0]:                 const VkSwapchainKHR = 0x20000000002
+        pImageIndices:                  const uint32_t* = 0x7ffeec965684
+            pImageIndices[0]:               const uint32_t = 1
+        pResults:                       VkResult* = NULL
+
+Thread 0, Frame 185:
+vkWaitForFences(device, fenceCount, pFences, waitAll, timeout) returns VkResult VK_SUCCESS (0):
+    device:                         VkDevice = 0x7fa9bc042e18
+    fenceCount:                     uint32_t = 1
+    pFences:                        const VkFence* = 0x7fa9cac21e58
+        pFences[0]:                     const VkFence = 0x270000000027
+    waitAll:                        VkBool32 = 1
+    timeout:                        uint64_t = 18446744073709551615
+
+Thread 0, Frame 185:
+vkResetFences(device, fenceCount, pFences) returns VkResult VK_SUCCESS (0):
+    device:                         VkDevice = 0x7fa9bc042e18
+    fenceCount:                     uint32_t = 1
+    pFences:                        const VkFence* = 0x7fa9cac21e58
+        pFences[0]:                     const VkFence = 0x270000000027
+
+Thread 0, Frame 185:
+vkAcquireNextImageKHR(device, swapchain, timeout, semaphore, fence, pImageIndex) returns VkResult VK_SUCCESS (0):
+    device:                         VkDevice = 0x7fa9bc042e18
+    swapchain:                      VkSwapchainKHR = 0x20000000002
+    timeout:                        uint64_t = 18446744073709551615
+    semaphore:                      VkSemaphore = 0x250000000025
+    fence:                          VkFence = 0x0
+    pImageIndex:                    uint32_t* = 1
+
+Thread 0, Frame 185:
+vkQueueSubmit(queue, submitCount, pSubmits, fence) returns VkResultVUID-vkQueueSubmit-pCommandBuffers-00071(ERROR / SPEC): msgNum: 774851941 - Validation Error: [ VUID-vkQueueSubmit-pCommandBuffers-00071 ] Object 0: handle = 0x7fa9bc042e18, type = VK_OBJECT_TYPE_DEVICE; | MessageID = 0x2e2f4d65 | VkCommandBuffer 0x7fa9caea4818[] is already in use and is not marked for simultaneous use. The Vulkan spec states: If any element of the pCommandBuffers member of any element of pSubmits was not recorded with the VK_COMMAND_BUFFER_USAGE_SIMULTANEOUS_USE_BIT, it must not be in the pending state (https://vulkan.lunarg.com/doc/view/1.2.162.0/mac/1.2-extensions/vkspec.html#VUID-vkQueueSubmit-pCommandBuffers-00071)
+    Objects: 1
+        [0] 0x7fa9bc042e18, type: 3, name: NULL
+ VK_SUCCESS (0):
+    queue:                          VkQueue = 0x7fa9cc805f38
+    submitCount:                    uint32_t = 1
+    pSubmits:                       const VkSubmitInfo* = 0x7ffeec965638
+        pSubmits[0]:                    const VkSubmitInfo = 0x7ffeec965638:
+            sType:                          VkStructureType = VK_STRUCTURE_TYPE_SUBMIT_INFO (4)
+            pNext:                          const void* = NULL
+            waitSemaphoreCount:             uint32_t = 1
+            pWaitSemaphores:                const VkSemaphore* = 0x7fa9cac1eca8
+                pWaitSemaphores[0]:             const VkSemaphore = 0x250000000025
+            pWaitDstStageMask:              const VkPipelineStageFlags* = 0x7ffeec965680
+                pWaitDstStageMask[0]:           const VkPipelineStageFlags = 1024 (VK_PIPELINE_STAGE_COLOR_ATTACHMENT_OUTPUT_BIT)
+            commandBufferCount:             uint32_t = 1
+            pCommandBuffers:                const VkCommandBuffer* = 0x7fa9cae8d978
+                pCommandBuffers[0]:             const VkCommandBuffer = 0x7fa9caea4818
+            signalSemaphoreCount:           uint32_t = 1
+            pSignalSemaphores:              const VkSemaphore* = 0x7fa9cac23308
+                pSignalSemaphores[0]:           const VkSemaphore = 0x260000000026
+    fence:                          VkFence = 0x270000000027
+
+Thread 0, Frame 185:
+vkQueuePresentKHR(queue, pPresentInfo) returns VkResult VK_SUCCESS (0):

@@ -1,0 +1,4 @@
+*.o
+runme
+*.spv
+.vscode
